@@ -29,15 +29,25 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+<<<<<<< HEAD
             uTRIP
+=======
+            TRVL
+>>>>>>> refs/remotes/origin/main
             <i className="fab fa-typo3" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
+<<<<<<< HEAD
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={<closeMobileMenu />}>
+=======
+          <ul className={click ? "nav-menu-active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+>>>>>>> refs/remotes/origin/main
                 Home
               </Link>
             </li>
@@ -66,11 +76,19 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
+<<<<<<< HEAD
                 Sign up
               </Link>
             </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">SIGNUP</Button>}
+=======
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle="btn--outline">SIGN-UP</Button>}
+>>>>>>> refs/remotes/origin/main
         </div>
       </nav>
     </>

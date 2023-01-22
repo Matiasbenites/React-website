@@ -42,3 +42,12 @@
   color: #fff;
   font-size: 100px;
 }
+
+.sign-up {
+  background-image: url("./assets/img1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
