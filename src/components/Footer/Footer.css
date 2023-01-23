@@ -95,13 +95,8 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff !important;
+  color: #fff;
   font-size: 24px;
-}
-
-.social-icon-link:hover {
-  border-bottom: 3px solid #fff;
-  text-decoration: none;
 }
 
 .social-media {
@@ -135,22 +130,6 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-}
-
-.fa-linkedin {
-  color: #fff;
-}
-
-.fa-twitter {
-  color: #fff;
-}
-
-.fa-instagram {
-  color: #fff;
-}
-
-.fa-github {
-  color: #fff;
 }
 
 .website-rights {
