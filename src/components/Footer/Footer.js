@@ -68,7 +68,6 @@ function Footer() {
               <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small className="website-rights">uTRIP © 2023 tuts</small>
           <div className="social-icons">
             <Link
               className="social-icon-link github"
@@ -111,6 +110,9 @@ function Footer() {
               </a>
             </Link>
           </div>
+        </div>
+        <div align="center">
+          <small className="website-rights">uTRIP © 2023 tuts</small>
         </div>
       </section>
     </div>

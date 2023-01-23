@@ -45,6 +45,22 @@
   border: 1px solid #fff;
 }
 
+.fa-github {
+  color: #fff;
+}
+
+.fa-instagram {
+  color: #fff;
+}
+
+.fa-twitter {
+  color: #fff;
+}
+
+.fa-linkedin {
+  color: #fff;
+}
+
 .footer-links {
   width: 100%;
   max-width: 1000px;
@@ -97,6 +113,10 @@
 .social-icon-link {
   color: #fff;
   font-size: 24px;
+}
+
+.social-icon-link:hover {
+  border-bottom: 3px solid #fff;
 }
 
 .social-media {
