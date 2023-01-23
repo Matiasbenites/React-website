@@ -20,11 +20,7 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-<<<<<<< HEAD
-    <Link to="/sign-up" >
-=======
     <Link to="/sign-up" className="btn-mobile">
->>>>>>> refs/remotes/origin/main
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
